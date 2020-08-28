@@ -1,2 +1,3 @@
-# javascript-consolecation
-Examples of good use of javascript console object.
+# Javascript Consolecation
+
+Examples about the javascript console object.

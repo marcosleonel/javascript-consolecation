@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript Consolecation <span>&#128293;</span></title>
+
+        <link rel="stylesheet" href="consolecation.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Javascript Consolecation</h1>
+                <p>> Examples about the javascript console object.</p>
+            </header>
+            
+            <!-- CONSOLE.LOG -->
+            <article>
+                <h2>> console.log</h2>
+                <p>
+                    For general output of logging information. You may use string substitution 
+                    and additional arguments with this method.
+                </p>
+                <button class="btn btn--log" onclick="consolecation('log', 'Log message')">
+                    console.log
+                </button>
+                <div class="console-msg--log hide">
+                    <p>log</p>
+                </div>
+            </article>
+
+            <!-- CONSOLE.INFO -->
+            <article>
+                <h2>> console.info</h2>
+                <p>
+                    Informative logging of information. You may use string substitution and 
+                    additional arguments with this method.
+                </p>
+                <button class="btn btn--info"onclick="consolecation('info', 'Info message')">
+                    console.info
+                </button>
+                <div class="console-msg--info hide">
+                    <p>info</p>
+                </div>
+            </article>
+
+            <!-- CONSOLE.WARN -->
+            <article>
+                <h2>> console.warn</h2>
+                <p>
+                    Outputs a warning message. You may use string substitution and additional 
+                    arguments with this method.
+                </p>
+                <button class="btn btn--warn" onclick="consolecation('warn', 'Warning message')">
+                    console.warn
+                </button>
+                <div class="console-msg--warn hide">
+                    <p>warn</p>
+                </div>
+            </article>
+
+            <!-- CONSOLE.ERROR -->
+            <article>
+                <h2>> console.error</h2>
+                <p>
+                    Outputs an error message. You may use string substitution and additional 
+                    arguments with this method.
+                </p>
+                <button class="btn btn--error" onclick="consolecation('error', 'Error message')">
+                    console.error
+                </button>
+                <div class="console-msg--error hide">
+                    <p>error</p>
+                </div>
+            </article>
+        </div>
+
+        <script src="consolecation.js"></script>
+    </body>
+</html>

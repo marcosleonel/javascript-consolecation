@@ -1,0 +1,167 @@
+body {
+  background-color: #1b1b1b;
+  color: #ffffff;
+  font-size: 16px;
+  z-index: 0;
+}
+
+h1, h2 {
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a, p, button {
+  font-family: monospace;
+}
+
+a, p {
+  font-size: 1rem;
+}
+
+header {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 4rem 1rem 6rem 1rem;
+  margin: 0 auto;
+}
+
+article {
+  width: 100%;
+  margin: 0;
+  padding: 2rem 1rem;
+}
+
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 10;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+  
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+  
+@media (min-width: 992px) {
+  .container  {
+      max-width: 960px;
+  }
+}
+  
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+  
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn--log {
+  background: #cccccc;
+  color: #3f3e3e;
+}
+
+.btn--info {
+  background: #1200b6;
+  color: #ffffff;
+}
+
+.btn--warn {
+  background: #f3af1e;
+  color: #3f3e3e;
+}
+
+.btn--error {
+  background: #f31e1e;
+  color: #ffffff;
+}
+
+.console-msg--log, 
+.console-msg--info,
+.console-msg--warn,
+.console-msg--error {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.console-msg--log p,
+.console-msg--info p,
+.console-msg--warn p,
+.console-msg--error p {
+  margin: 0;
+}
+
+.console-msg--log {
+  border: 1px solid #b1b1b1;
+  background: #cccccc;
+  color: #3f3e3e;
+}
+
+.console-msg--info {
+  border: 1px solid #b1b1b1;
+  background: #cccccc;
+  color: #3f3e3e;
+}
+
+.console-msg--warn {
+  border: 1px solid #f3af1e;
+  background: #f7e0b0;
+  color: #a87a16;
+}
+
+.console-msg--error {
+  border: 1px solid #f31e1e;
+  background: #f7baba;
+  color: #961212;
+}
+
+.hide {
+  display: none;
+}
